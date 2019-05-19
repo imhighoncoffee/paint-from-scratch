@@ -171,7 +171,7 @@ void init(void)
 }
 
 // Main Function
-int main(int argc, char** argv){
+int main(int argc,  char** argv){
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGBA);
     glutSetOption( GLUT_ACTION_ON_WINDOW_CLOSE, GLUT_ACTION_GLUTMAINLOOP_RETURNS ); 
